@@ -5,8 +5,8 @@
     <!-- Diagram content (shape and connector positions) -->
     <edmx:Diagrams>
       <Diagram DiagramId="2551cc17e62c4609be78cf3f6e74c402" Name="Diagram1">
-        <EntityTypeShape EntityType="DBModel.CustomerMaster" Width="1.5" PointX="0.875" PointY="1.75" IsExpanded="true" />
-        <EntityTypeShape EntityType="DBModel.Outlet" Width="1.5" PointX="4" PointY="2" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBModel.CustomerMaster" Width="1.5" PointX="1.125" PointY="1.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBModel.Outlet" Width="1.5" PointX="4.5" PointY="0.75" IsExpanded="true" />
       </Diagram>
     </edmx:Diagrams>
   </edmx:Designer>

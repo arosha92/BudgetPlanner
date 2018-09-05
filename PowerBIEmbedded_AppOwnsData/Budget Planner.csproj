@@ -280,6 +280,10 @@
     <Content Include="scripts\powerbi.js.map" />
     <Content Include="Views\Login\Index.cshtml" />
     <Content Include="Views\Shared\_LoginPartial.cshtml" />
+    <None Include="Properties\PublishProfiles\testbudg - FTP.pubxml" />
+    <None Include="Properties\PublishProfiles\testbudg - Web Deploy.pubxml" />
+    <None Include="Properties\PublishProfiles\testbudget123 - FTP.pubxml" />
+    <None Include="Properties\PublishProfiles\testbudget123 - Web Deploy.pubxml" />
   </ItemGroup>
   <ItemGroup>
     <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />

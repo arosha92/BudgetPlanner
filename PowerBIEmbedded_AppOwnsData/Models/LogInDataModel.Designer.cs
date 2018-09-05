@@ -1,4 +1,4 @@
-﻿// T4 code generation is enabled for model 'D:\SLIIT\4th year\CDAP\App Owns Data\PowerBIEmbedded_AppOwnsData\Models\LogInDataModel.edmx'. 
+﻿// T4 code generation is enabled for model 'D:\SLIIT\4th year\CDAP\BudgetPlanner\PowerBIEmbedded_AppOwnsData\Models\LogInDataModel.edmx'. 
 // To enable legacy code generation, change the value of the 'Code Generation Strategy' designer
 // property to 'Legacy ObjectContext'. This property is available in the Properties Window when the model
 // is open in the designer.
