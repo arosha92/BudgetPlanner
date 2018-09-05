@@ -29,7 +29,7 @@ namespace PowerBIEmbedded_AppOwnsData.Controllers
                 {
                     Session["UserName"] = customerDetails.UserName;
                     Session["Email"] = customerDetails.Email;
-                    return RedirectToAction("Index", "Home");
+                    return RedirectToAction("EmbedReport", "Home");
                 }
             }
         }

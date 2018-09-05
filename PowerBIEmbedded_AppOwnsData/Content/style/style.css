@@ -3,9 +3,10 @@
 }
 
 #reportContainer {
-    height: 100%;
+    height: 920px;
     width: 100%;
     max-width: 1000px;
+    max-height: 1000px;
 }
 
 #dashboardContainer {

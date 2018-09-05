@@ -23,13 +23,8 @@
 
     return;
 }
-<h2>Embedded Report</h2>
-<div>
-    <h1>Dashboard</h1>
-    <h3>UserName : @Session["UserName"]</h3>
-    <h3>Email : @Session["Email"]</h3>
-    <a href="@Url.Action("LogOut","Login")"> LogOut</a>
-</div>
+
+
 <div>
     @*@using (Html.BeginForm())
         {
@@ -56,7 +51,7 @@
         }*@
 </div>
 
-<div id="reportContainer" style="width:1500px; margin:0 auto;"></div>
+<div id="reportContainer" style="width:100%; height:600px; margin:0 auto;"></div>
 @*<div class="infoBox">
         Code is in files:<br />
         1) HomeController.cs<br />
