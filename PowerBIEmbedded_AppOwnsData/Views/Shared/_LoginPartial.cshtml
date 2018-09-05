@@ -1,0 +1,22 @@
+﻿@using Microsoft.AspNet.Identity
+@if (Session["Email"] == null)
+{
+    @*<ul class="nav navbar-nav navbar-right">
+        <li>@Html.ActionLink("Log in", "Login", "Account", routeValues: null, htmlAttributes: new { id = "loginLink" })</li>
+    </ul>*@
+
+}
+else
+{
+    using (Html.BeginForm("LogOff", "Account", FormMethod.Post, new { id = "logoutForm", @class = "navbar-right" }))
+    {
+        @Html.AntiForgeryToken()
+
+        <ul class="nav navbar-nav navbar-right">
+            <li>
+                <p style="color : aliceblue; margin-top: 15px">@Session["UserName"] </p>
+            </li>
+            <li><a href="@Url.Action("LogOut", "Login")"> LogOut</a></li>
+        </ul>
+    }
+}
